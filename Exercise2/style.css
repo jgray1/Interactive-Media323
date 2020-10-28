@@ -3,10 +3,13 @@
 
 <h1>This is a heading</h1>
 <h2> This is a heading</h2>
-<p>This is a paragraph.</p>
-h1 {
-  background-color: yellow;
-}
+<p>This is a paragraph.</p> 
+
+div{color: green
+bold:30px;}
+
+li{color: purple;
+margin-left: 30px}
 
 h1 {
   color: navy;
