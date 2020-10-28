@@ -6,7 +6,7 @@
 <p>This is a paragraph.</p> 
 
 
-div{color: green
+div{color: yellow
 bold:30px;}
 
 li{color: purple;
@@ -16,10 +16,10 @@ h1 {
   color: navy;
   margin-left: 20px;
 }
-h2 {color: red;
+h2 {color: red;}
 
-
-p {color: white;}
-
+p{color:white;}
+b{color: yellow;}
 body {background: black;}
+
 </html>
