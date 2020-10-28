@@ -5,8 +5,9 @@
 <h2> This is a heading</h2>
 <p>This is a paragraph.</p> 
 
-
-li{color: purple;
+div{color: white;
+margin-left: 30px}
+li{color: white;
 margin-left: 30px}
 
 h1 {
