@@ -17,5 +17,6 @@ h1 {
 }
 h2 {color: red;
 margin-left: 40px}
-p{color: grey;}
+
+body {background: yellow;}
 </html>
