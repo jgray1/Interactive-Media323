@@ -1,10 +1,15 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html> 
-
+<title> Project 2 </title>
 <h1>This is a heading</h1>
 <h2> This is a heading</h2>
 <p>This is a paragraph.</p> 
 
+header{color: red;}
 
+ul {
+  list-style-type: vertical;
+  margin: 0;
+  padding: 0;
 
 </html>
