@@ -1,24 +1,31 @@
 <!DOC type>
 <html> 
 <head>
-	<link rel="stylesheet" href="Project2/style.css"link>
+	
 		<title>Website Prototype</title>
-		<body>
+		
 </head>
 
 
 	<link rel="stylesheet" type="text/css" href="style.css">
+<body>
 
 <div class="top container">
 <div class="logo"></div>
-<div id="rectangle"></div>
-<div id="magnifying-glass"></div>
-</div>
+<div class="rectangle"></div>
+<div class="square"></div>
+<div class="square"></div>
+<div class="square"></div>
+<div class="dot"></div>
 
 
 
+
+</body>
 	
 
+
+<div class="main container">
 
 
 
@@ -33,18 +40,20 @@
  
 
 
+<style type="text/css">
 
-<style>
-	.top-container
-		{display: inline-block;
-		position: fixed;
+
+	.top-container {display: inline-block;
+		position: relative;
 		width: 100%;
 		top: 0px;}
 
+		div{display: inline-block;}
+
 	
 
-	.logo {
-  display: inline-block;
+		.logo {
+ 		 display: inline-block;
 		width: 50px;
 		height: 50px;
 		background:red;
@@ -53,46 +62,53 @@
 		left:20px;}
 
 		.rectangle {
-  display: inline-block;
-		width: 50px;
-		height: 100px;
+  		display: inline-block;
+		width: 80px;
+		height: 30px;
 		background:blue;
-		left: 100px;
+		left: 20px;
+		top: 40px;
 		
-		position: absolute;}
+		position: relative;}
+	
 
-    }
+	.search {
+  		display: inline-block;
+		width: 500px;
+		height: 20px;
+		background:blue;
+		left: 50px;
+		top: 40px;
+		
+		position: relative;}
 
+    .square {display: inline-block;
+		width: 30px;
+		height: 30px;
+		background:green;
+		left: 70px;
+		top: 40px;
+		
+		position: relative;}
+
+	.dot {
+ 		 height: 25px;
+ 		 width: 25px;
+ 		 top: 40px;
+ 		 left: :20px;
+ 		 position: relative;
+		  background-color: white;
+		  border-radius: 80%;
+		  display: inline-block;}
+
+	
     
-    }
-
-      #magnifying-glass {
-      font-size: 30px;
-      display: inline-block;
-      width: 0.4em;
-      box-sizing: content-box;
-      height: 0.4em;
-      border: 0.1em solid red;
-      position: relative;
-      border-radius: 0.35em;
-     left: 900px;
-     top: 10px;
-    }
-    
-	#magnifying-glass:before {
-      content: "";
-      display: inline-block;
-      position: absolute;
-      right: -0.25em;
-      bottom: -0.1em;
-      border-width: 0;
-      background: red;
-      width: 0.35em;
-      height: 0.08em;
-      transform: rotate(45deg);}
 
 
-    
-</style>
+
+    </style>
+
+
+</html>
 
 		
