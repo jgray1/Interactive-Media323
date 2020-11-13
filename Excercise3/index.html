@@ -1,19 +1,97 @@
-index.html
+<!DOC type>
 <html> 
 <head>
+	<link rel="stylesheet" href="Project2/style.css"link>
 		<title>Website Prototype</title>
 		<body>
-			<div class="top container">
-				<div class="logo">
-					
-			</body>
-		<style>
-			
+</head>
 
-		body{background:black;}
+<head>
+	<title>Website Portrait</title>
+<div class="top container"></div>
+<div class="logo"></div>
 
-		.top-container{
-			display: inline-block;
-			position: fixed;
-		}
+	<div id="rectangle"></div>
+	<div id="magnifying-glass"></div>
+
+
+
+		
+	
+
+
+
+</head>
+
+
+
+
+
+
+
+
+ 
+
+
+
+<style>
+	.top-container
+		{display: inline-block;
+		position: fixed;
+		width: 100px;
+		top: 0px;}
+
+	
+
+	.logo {
+  display: inline-block;
+		width: 50px;
+		height: 50px;
+		background:red;
+		
+		position: relative;}
+
+		.rectangle {
+  display: inline-block;
+		width: 50px;
+		height: 100px;
+		background:blue;
+		left: 100px;
+		
+		position: absolute;}
+
+    }
+
+    
+    }
+
+      #magnifying-glass {
+      font-size: 30px;
+      display: inline-block;
+      width: 0.4em;
+      box-sizing: content-box;
+      height: 0.4em;
+      border: 0.1em solid red;
+      position: relative;
+      border-radius: 0.35em;
+     left: 900px;
+     top: 10px;
+    }
+    
+	#magnifying-glass:before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      right: -0.25em;
+      bottom: -0.1em;
+      border-width: 0;
+      background: red;
+      width: 0.35em;
+      height: 0.08em;
+      transform: rotate(45deg);
+
+
+    
+</style>
+
 		
