@@ -18,13 +18,21 @@ I'm lost, in times deep well
   </div>
  
       </body>
-      <style>
+     <style type="text/css">
+
       	div{font-size: 40px;
           }
 
   a{font-size: 40px;
-    text-decoration: none;}
-  
+    text-decoration: none;
+          animation: myfirst 4s infinite;
+  animation-direction: reverse;}
+
+      	 @keyframes myfirst{ 0%   {color: black; left: 0px; top: 0px;}
+  25%  {color: white; left: 200px; top: 0px;}
+  50%  {color: black; left: 200px; top: 200px;}
+  75%  {color: white; left: 0px; top: 200px;}
+  100% {color: black; left: 0px; top: 0px;}}
       
       .move{font-family: arial;
   letter-spacing: 2px;
